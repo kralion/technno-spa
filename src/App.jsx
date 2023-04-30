@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 
 function App() {
 	return (
-		<div className="App">
+		<div className="App font-Roboto">
 			<header className="flex flex-col justify-center lg:justify-between  lg:mx-10">
 				<div className="my-3 ml-24 lg:ml-0">
 					<img
@@ -13,7 +13,7 @@ function App() {
 				</div>
 				<nav className="bg-[#0C5ADB]">
 					<div className="py-3 pl-3">
-						<span className="text-white">TECHNO</span>
+						<span className="text-white tracking-widest font-bold">TECHNO</span>
 					</div>
 				</nav>
 
