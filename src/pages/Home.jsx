@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
 	return (
 		<section id="home">
-			<div className="absloute">
+			<div className="">
 				<img
 					src="https://wp.ditsolution.net/techno/wp-content/uploads/2020/10/blog4.jpg"
 					alt="background"
