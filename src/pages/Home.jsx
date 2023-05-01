@@ -14,10 +14,10 @@ function Home() {
 				<img
 					src="https://4kwallpapers.com/images/walls/thumbs_3t/9852.jpg"
 					alt="background"
-					className="w-full h-screen object-cover"
+					className="w-full lg:h-screen h-[600px] object-cover"
 				/>
 				<div className="flex justify-between">
-					<div className="lg:ml-24 ml-3 flex flex-col lg:gap-16 gap-7 relative lg:bottom-[450px] bottom-10 text-black">
+					<div className="lg:ml-24 ml-3 flex flex-col lg:gap-16 gap-7 relative lg:bottom-[450px] bottom-64 text-black">
 						<div>
 							<h3 className="lg:text-3xl mb-5  font-bold font-Poppins tracking-wider uppercase text-white">
 								Total IT Solution
@@ -45,7 +45,7 @@ function Home() {
 					</div>
 
 					<button
-						className="relative lg:bottom-96 lg:flex-row flex-col rounded-full bg-white h-16 mr-16 items-center text-center p-6 flex gap-2 justify-center "
+						className="relative invisible lg:visible lg:bottom-96 lg:flex-row flex-col rounded-full bg-white h-16 mr-16 items-center text-center p-6 flex gap-2 justify-center "
 						onClick={() => alert("Play")}
 					>
 						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-14 w-14  opacity-75" />
@@ -57,7 +57,7 @@ function Home() {
 					</button>
 				</div>
 			</div>
-			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center justify-center relative bottom-[380px] font-Poppins">
+			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center ml-9 relative bottom-36 lg:bottom-[380px] font-Poppins">
 				<div
 					id="card1"
 					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
