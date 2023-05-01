@@ -9,12 +9,11 @@ import menuIcon from "./../assets/menu-icon.png";
 function Home() {
 	return (
 		<section id="home">
-			<div className="absloute bg-slate-500 h-[1000px] ">
+			<div className="absloute ">
 				<img
 					src="https://images.pexels.com/photos/1578604/pexels-photo-1578604.jpeg?auto=compress&cs=tinysrgb&w=600"
 					alt="background"
 					width={1520}
-					height={800}
 				/>
 
 				<div className="lg:ml-24 ml-3 flex flex-col lg:gap-16 gap-7 relative lg:bottom-96 bottom-10 text-black">
@@ -49,10 +48,10 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center ml-10 font-Poppins">
+			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center ml-10 relative bottom-96 font-Poppins">
 				<div
 					id="card1"
-					className=" lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className=" bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itServicesIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -61,7 +60,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className=" lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className="bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itSercurityIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -70,7 +69,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className=" lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className=" bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itConsultancyIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -79,7 +78,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className="  lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className="bg-white  lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itEngineeringIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">

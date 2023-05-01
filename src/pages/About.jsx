@@ -5,7 +5,7 @@ import qualityIcon from "./../assets/quality-control-management.png";
 
 function About() {
 	return (
-		<section id="about" className="my-24 mx-10">
+		<section id="about" className=" relative bottom-64 mx-10">
 			<div className="lg:flex lg:gap-5 ">
 				<img src={aboutImage} className="h-2/3" alt="about" />
 
