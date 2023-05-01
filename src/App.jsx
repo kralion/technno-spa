@@ -1,11 +1,9 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Services from "./pages/Services";
 import menuIcon from "./assets/menu-icon.png";
 import closeMenuIcon from "./assets/close-menu-icon.png";
 import shoppingCartIcon from "./assets/shopping-cart.png";
 import searchIcon from "./assets/search.png";
-import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
 	return (
@@ -70,7 +68,6 @@ function App() {
 			<main className="relative">
 				<Home />
 				<About />
-				<Services />
 			</main>
 		</div>
 	);
