@@ -65,11 +65,10 @@ function App() {
 					<img src={menuIcon} width={25} alt="menu" />
 				</button>
 			</header> */}
-		<main className="relative">
-
-			<Home />
-			<About />
-		</main>
+			<main className="relative">
+				<Home />
+				<About />
+			</main>
 		</div>
 	);
 }

@@ -5,6 +5,7 @@ import itConsultancyIcon from "./../assets/it-consultancy.png";
 import itEngineeringIcon from "./../assets/it-engineering.png";
 import playButtonIcon from "./../assets/play-buttton.png";
 import menuIcon from "./../assets/menu-icon.png";
+import "animate.css";
 
 function Home() {
 	return (
@@ -27,15 +28,15 @@ function Home() {
 							</h1>
 						</div>
 
-						<div className="flex gap-5">
+						<div className="flex gap-12">
 							<button
-								className="lg:py-3 py-1.5 lg:px-10 px-5 text-white rounded bg-[#0C5ADB] hover:bg-[#074ab4] duration-300"
+								className="lg:py-3 py-1.5 lg:px-12 px-5 text-white rounded bg-[#0C5ADB] hover:bg-[#074ab4] duration-300"
 								onClick={() => alert("How IT Works")}
 							>
 								How IT works
 							</button>
 							<button
-								className="lg:py-3 py-1.5 lg:px-10 px-5 text-white border-[1px] bg-transparent hover:bg-[#0C5ADB] hover:border-[#0C5ADB]  duration-500 border-neutral-200"
+								className="lg:py-3 py-1.5 lg:px-12 px-5 text-white border-[1px] bg-transparent hover:bg-[#0C5ADB] hover:border-[#0C5ADB]  duration-500 border-neutral-200"
 								onClick={() => alert("IT Services")}
 							>
 								IT Services
@@ -59,7 +60,7 @@ function Home() {
 			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center justify-center relative bottom-[380px] font-Poppins">
 				<div
 					id="card1"
-					className=" bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itServicesIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -68,7 +69,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className="bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itSercurityIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -77,7 +78,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className=" bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itConsultancyIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -86,7 +87,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className="bg-white  lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className="bg-white animate__animated animate__delay-2s animate__repeat-3 animate__flipInY lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itEngineeringIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
