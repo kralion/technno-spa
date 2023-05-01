@@ -8,7 +8,7 @@ import searchIcon from "./assets/search.png";
 function App() {
 	return (
 		<div className="App font-Roboto">
-			<header className="flex flex-col justify-between lg:flex-row  lg:mx-24 items-center lg:py-7">
+			<header className="flex sticky shadow-md bg-white top-0 z-50 flex-col justify-between lg:flex-row  lg:px-24 items-center lg:py-7">
 				<button className="my-3 lg:ml-0">
 					<img
 						src="https://wp.ditsolution.net/techno/wp-content/uploads/2021/02/main-logo.png"
@@ -57,17 +57,19 @@ function App() {
 					</ul>
 				</nav>
 			</header>
-			<header className="bg-[#0C5ADB] py-5 visible lg:invisible flex justify-between px-5 ">
+			{/* <header className="bg-[#0C5ADB] py-5 visible lg:invisible flex justify-between px-5 ">
 				<span className="text-white tracking-wider font-semibold font-Poppins">
 					TECHNO
 				</span>
 				<button onClick={() => alert("Mobile Menu")}>
 					<img src={menuIcon} width={25} alt="menu" />
 				</button>
-			</header>
+			</header> */}
+		<main className="relative">
 
 			<Home />
 			<About />
+		</main>
 		</div>
 	);
 }
