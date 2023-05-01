@@ -99,3 +99,22 @@
     transform: rotateY(-180deg);
 }
 
+h5 {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    display: grid;
+}	
+i {
+    font-size: 90px;
+    color: #fff;
+    margin-bottom: 1rem;
+    display: grid;
+    padding: 20px;
+    place-content: center;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -48,10 +48,10 @@ function Home() {
 						className="relative lg:bottom-96 lg:flex-row flex-col rounded-full bg-white h-16 mr-16 items-center text-center p-6 flex gap-2 justify-center "
 						onClick={() => alert("Play")}
 					>
-						<div class="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-14 w-14  opacity-75" />
-						<div class="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-16 w-16  opacity-75" />
-						<div class="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-[70px] w-[70px] opacity-75" />
-						<div class="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-[80px] w-[80px] opacity-75" />
+						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-14 w-14  opacity-75" />
+						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-16 w-16  opacity-75" />
+						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-[70px] w-[70px] opacity-75" />
+						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-[80px] w-[80px] opacity-75" />
 
 						<img src={playButtonIcon} width={20} alt="play" />
 					</button>
