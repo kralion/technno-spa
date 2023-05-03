@@ -22,6 +22,7 @@ function Home() {
 							<h3 className="lg:text-3xl mb-5  font-bold font-Poppins tracking-wider uppercase text-white">
 								Total IT Solution
 							</h3>
+							<p>Maldito mono de mrd</p>
 							<h1 className="lg:text-7xl text-2xl   text-white font-bold">
 								Best IT solution agency <br />
 								for your Business
