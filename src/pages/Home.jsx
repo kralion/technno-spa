@@ -6,6 +6,7 @@ import itEngineeringIcon from "./../assets/it-engineering.png";
 import playButtonIcon from "./../assets/play-buttton.png";
 import menuIcon from "./../assets/menu-icon.png";
 import "animate.css";
+import "../styles/extra.css";
 
 function Home() {
 	return (
@@ -53,46 +54,86 @@ function Home() {
 						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-[70px] w-[70px] opacity-75" />
 						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-[80px] w-[80px] opacity-75" />
 
-						<img src={playButtonIcon} width={20} alt="play" />
+						<img src={playButtonIcon} width={20} alt="play-button" />
 					</a>
 				</div>
 			</div>
 			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center ml-9 relative bottom-36 lg:bottom-[380px] font-Poppins">
-				<div
-					id="card1"
-					className="hover:rotate-[-180deg] animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
-				>
-					<img src={itServicesIcon} width={70} alt="icon" />
-					<span className="font-semibold text-[18px]">
-						Provide All King Of IT <br /> Services
-					</span>
+				<div className="flip">
+					<div className="flip-content">
+						<div className="flip-front  bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center  ">
+							<img src={itServicesIcon} width={70} alt="icon" />
+							<span className="font-semibold text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+						</div>
+						<div className="flip-back text-white bg-blue-600 lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-14 h-[250px] px-5 justify-center items-center  ">
+							<span className="font-semibold tracking-wider text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+							<span className="text-[14px]">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+								ipsa asperiores fugit.
+							</span>
+						</div>
+					</div>
 				</div>
-				<div
-					id="card1"
-					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
-				>
-					<img src={itSercurityIcon} width={70} alt="icon" />
-					<span className="font-semibold text-[18px]">
-						Solution For All IT <br /> Security
-					</span>
+				<div className="flip">
+					<div className="flip-content">
+						<div className="flip-front  bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center  ">
+							<img src={itSercurityIcon} width={70} alt="icon" />
+							<span className="font-semibold text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+						</div>
+						<div className="flip-back text-white bg-blue-600 lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-14 h-[250px] px-5 justify-center items-center  ">
+							<span className="font-semibold tracking-wider text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+							<span className="text-[14px]">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+								ipsa asperiores fugit.
+							</span>
+						</div>
+					</div>
 				</div>
-				<div
-					id="card1"
-					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
-				>
-					<img src={itConsultancyIcon} width={70} alt="icon" />
-					<span className="font-semibold text-[18px]">
-						All IT Consultancy <br /> Solution
-					</span>
+				<div className="flip">
+					<div className="flip-content">
+						<div className="flip-front  bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center  ">
+							<img src={itConsultancyIcon} width={70} alt="icon" />
+							<span className="font-semibold text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+						</div>
+						<div className="flip-back text-white bg-blue-600 lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-14 h-[250px] px-5 justify-center items-center  ">
+							<span className="font-semibold tracking-wider text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+							<span className="text-[14px]">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+								ipsa asperiores fugit.
+							</span>
+						</div>
+					</div>
 				</div>
-				<div
-					id="card1"
-					className="bg-white animate__animated animate__delay-2s animate__repeat-3 animate__flipInY lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
-				>
-					<img src={itEngineeringIcon} width={70} alt="icon" />
-					<span className="font-semibold text-[18px]">
-						Best Experience <br /> Engineering
-					</span>
+				<div className="flip mb-20">
+					<div className="flip-content">
+						<div className="flip-front  bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center  ">
+							<img src={itEngineeringIcon} width={70} alt="icon" />
+							<span className="font-semibold text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+						</div>
+						<div className="flip-back text-white bg-blue-600 lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-14 h-[250px] px-5 justify-center items-center  ">
+							<span className="font-semibold tracking-wider text-[18px]">
+								Provide All Kind Of IT <br /> Services
+							</span>
+							<span className="text-[14px]">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+								ipsa asperiores fugit.
+							</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -53,7 +53,34 @@
 
 
 .circle {
-    animation : move-circle 2s linear infinite;
+    animation : move-circle 3s linear infinite;
     left: 0;
     right: 0;
+}
+.flip {
+    width: 255px;
+    height: 150px;
+    text-align: center;
+    perspective: 600px;
+}
+
+.flip-content {
+    
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.flip:hover .flip-content {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+.flip-front,
+.flip-back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip-back {
+    transform: rotateY(180deg);
+  
 }
