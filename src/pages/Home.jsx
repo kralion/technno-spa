@@ -44,9 +44,9 @@ function Home() {
 						</div>
 					</div>
 
-					<button
+					<a
+						href="https://youtu.be/8J8JJyeMaiM"
 						className="relative invisible lg:visible lg:bottom-96 lg:flex-row flex-col rounded-full bg-white h-16 mr-16 items-center text-center p-6 flex gap-2 justify-center "
-						onClick={() => alert("Play")}
 					>
 						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-14 w-14  opacity-75" />
 						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-16 w-16  opacity-75" />
@@ -54,13 +54,13 @@ function Home() {
 						<div className="animate-ping absolute inline-flex rounded-full bg-neutral-200 h-[80px] w-[80px] opacity-75" />
 
 						<img src={playButtonIcon} width={20} alt="play" />
-					</button>
+					</a>
 				</div>
 			</div>
 			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center ml-9 relative bottom-36 lg:bottom-[380px] font-Poppins">
 				<div
 					id="card1"
-					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className="hover:rotate-[-180deg] animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itServicesIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -69,7 +69,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itSercurityIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -78,7 +78,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className=" animate__animated animate__delay-2s animate__repeat-3 animate__flipInY bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itConsultancyIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">
@@ -87,7 +87,7 @@ function Home() {
 				</div>
 				<div
 					id="card1"
-					className="bg-white animate__animated animate__delay-2s animate__repeat-3 animate__flipInY lg:my-5 lg:w-64 w-80 border-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
+					className="bg-white animate__animated animate__delay-2s animate__repeat-3 animate__flipInY lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center hover:bg-blue-600 duration-200 hover:text-white"
 				>
 					<img src={itEngineeringIcon} width={70} alt="icon" />
 					<span className="font-semibold text-[18px]">

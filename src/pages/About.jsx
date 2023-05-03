@@ -2,6 +2,7 @@ import React from "react";
 import aboutImage from "./../assets/about-img.png";
 import warrantyIcon from "./../assets/warranty-management.png";
 import qualityIcon from "./../assets/quality-control-management.png";
+import style from "./../styles/extra.module.css";
 import abourCircle from "./../assets/about-circle.png";
 
 function About() {
@@ -10,7 +11,16 @@ function About() {
 			id="about"
 			className="lg:flex lg:gap-5  relative lg:bottom-64 mx-10"
 		>
-			<img src={aboutImage} className="h-2/3" alt="about" />
+			<img
+				src={abourCircle}
+				width={50}
+				height={50}
+				alt="about-circle"
+				className={`${style.bluecircle} animate-bump
+				 duration-150 invisible lg:visible`}
+			/>
+
+			<img src={aboutImage} className="h-2/3 relative " alt="about" />
 
 			<div className="">
 				<h4 className="text-blue-600 tracking-widest py-3 font-Poppins text-xl text-center lg:text-left font-semibold">
@@ -21,10 +31,16 @@ function About() {
 				</h2>
 
 				<h2 className="text-2xl lg:text-5xl font-bold">
-					Provide Best <span className="text-[#0C5ADB]">IT Solutions.</span>
+					Provide Best <span className="text-[ 	]">IT Solutions.</span>
 				</h2>
 				<br />
-				<span className=" px-10 rounded-full bg-blue-600 lg:w-1/3" />
+
+				<div class="w-[60px] h-2 flex justify-items-center relative rounded-full bg-blue-300">
+					<div
+						className={`w-2.5 h-2 bg-[#2872e7] rounded-full absolute ${style.circle}`}
+					/>
+				</div>
+
 				<br />
 				<p className="py-5 text-[16px] font-Poppins tracking-wider">
 					We are privileged to work with hundred future-thinking awesome

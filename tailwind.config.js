@@ -8,7 +8,11 @@ export default {
         Roboto : ['Roboto', 'sans-serif'],
         Poppins : ['Poppins', 'sans-serif'],
         Mulish : ['Mulish', 'sans-serif'],
+        },
+        animation : {
+          'bump' : 'bounce 7s infinite'
         }
+        
     },
   },
   plugins: [],
