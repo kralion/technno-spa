@@ -12,11 +12,13 @@ function Home() {
 	return (
 		<section id="home">
 			<div className="absloute ">
-				<img
-					src="https://4kwallpapers.com/images/walls/thumbs_3t/9852.jpg"
-					alt="background"
-					className="w-full lg:h-screen h-[600px] object-cover"
-				/>
+				<div className="">
+					<img
+						src="https://4kwallpapers.com/images/walls/thumbs_3t/9852.jpg"
+						alt="background"
+						className="animate__animated animate__flipInX animate__slow w-full lg:h-screen h-[600px] object-cover"
+					/>
+				</div>
 				<div className="flex justify-between">
 					<div className="lg:ml-24 ml-3 flex flex-col lg:gap-16 gap-7 relative lg:bottom-[450px] bottom-64 text-black">
 						<div>
@@ -29,7 +31,7 @@ function Home() {
 							</h1>
 						</div>
 
-						<div className="flex gap-12">
+						<div className="flex gap-12 w-80 lg:w-auto">
 							<button
 								className="lg:py-3 py-1.5 lg:px-12 px-5 text-white rounded bg-[#0C5ADB] hover:bg-[#074ab4] duration-300"
 								onClick={() => alert("How IT Works")}
@@ -58,7 +60,7 @@ function Home() {
 					</a>
 				</div>
 			</div>
-			<div className=" lg:flex-row flex-col flex lg:gap-5 gap-7 lg:justify-center ml-9 relative bottom-36 lg:bottom-[380px] font-Poppins">
+			<div className=" lg:flex-row flex-col flex lg:gap-5 md:c gap-36 ml-7 lg:justify-center relative bottom-36 lg:bottom-[380px] font-Poppins">
 				<div className="flip">
 					<div className="flip-content">
 						<div className="flip-front  bg-white lg:my-5 lg:w-64 w-80 border-b-[1px] border-neutral-100 shadow-xl rounded-xl text-center flex-col gap-7 flex py-12 justify-center items-center  ">

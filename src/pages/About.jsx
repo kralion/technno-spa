@@ -34,7 +34,7 @@ function About() {
 				</h2>
 				<br />
 
-				<div class="w-[60px] h-2 flex items-center relative rounded-full bg-blue-300">
+				<div className="w-[60px] h-2 flex items-center relative rounded-full bg-blue-300">
 					<div className="w-3 h-3  top-[0.1px] bg-[#2872e7] rounded-full absolute circle" />
 				</div>
 
