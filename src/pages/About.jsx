@@ -2,7 +2,7 @@ import React from "react";
 import aboutImage from "./../assets/about-img.png";
 import warrantyIcon from "./../assets/warranty-management.png";
 import qualityIcon from "./../assets/quality-control-management.png";
-import style from "./../styles/extra.module.css";
+import "../styles/extra.css";
 import abourCircle from "./../assets/about-circle.png";
 
 function About() {
@@ -16,8 +16,7 @@ function About() {
 				width={50}
 				height={50}
 				alt="about-circle"
-				className={`${style.bluecircle} animate-bump
-				 duration-150 invisible lg:visible`}
+				className="bluecircle animate-bump duration-150 invisible lg:visible "
 			/>
 
 			<img src={aboutImage} className="h-2/3 relative " alt="about" />
@@ -31,14 +30,12 @@ function About() {
 				</h2>
 
 				<h2 className="text-2xl lg:text-5xl font-bold">
-					Provide Best <span className="text-[ 	]">IT Solutions.</span>
+					Provide Best <span className="text-[#0C5ADB]">IT Solutions.</span>
 				</h2>
 				<br />
 
-				<div class="w-[60px] h-2 flex justify-items-center relative rounded-full bg-blue-300">
-					<div
-						className={`w-2.5 h-2 bg-[#2872e7] rounded-full absolute ${style.circle}`}
-					/>
+				<div class="w-[60px] h-2 flex items-center relative rounded-full bg-blue-300">
+					<div className="w-3 h-3  top-[0.1px] bg-[#2872e7] rounded-full absolute circle" />
 				</div>
 
 				<br />
