@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/<repo-owner>/<repo-name>" title="Vite-app">
-    <img src="https://media.istockphoto.com/id/1368763816/vector/wind-blow-vector-icon-air-puff-symbol.jpg?s=612x612&w=0&k=20&c=0GIijczbW0qFbHtaPWS9tf-QUSYCRr627AkUp5I0jRo=" width="80px" alt="techno-spa"/>
+    <img src="https://www.clipartmax.com/png/middle/363-3638728_wind-icon-png-free-stock-blue-wind-icon.png" width="80px" alt="techno-spa"/>
   </a>
 </p>
 <h1 align="center">🌟 Techno SPA  🌟</h1>
