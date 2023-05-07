@@ -1,7 +1,10 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
+/* import ReactElasticCarousel from "react-elastic-carousel";
 import menuIcon from "./assets/menu-icon.png";
-import closeMenuIcon from "./assets/close-menu-icon.png";
+import closeMenuIcon from "./assets/close-menu-icon.png"; */
 import shoppingCartIcon from "./assets/shopping-cart.png";
 import searchIcon from "./assets/search.png";
 
@@ -68,6 +71,9 @@ function App() {
 			<main className="relative">
 				<Home />
 				<About />
+				<Contact />
+				<Blog />
+				{/* <CardCarousel /> */}
 			</main>
 		</div>
 	);
