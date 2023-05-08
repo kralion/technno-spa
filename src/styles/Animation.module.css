@@ -1,0 +1,56 @@
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0c5adb;
+  position: absolute;
+  margin-top: -3px;
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  from { left: 0; }
+  to { left: calc(100%); }
+}
+
+.toUp {
+  opacity: 0;
+  transform: translateY(80px);
+  animation: appear 1s 1.6s forwards;
+}
+
+.toUpAfter {
+  opacity: 0;
+  transform: translateY(80px);
+  animation: appear 1s 2s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.imageCircle {
+  animation: moveUpDown 2.5s infinite;
+  transition: all;
+}
+
+
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}

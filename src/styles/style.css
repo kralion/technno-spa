@@ -1,0 +1,23 @@
+.circle {
+    animation : move-circle 3s linear infinite;
+    left: 0;
+    right: 0;
+}
+@keyframes bounce-slow {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+  
+  .animate-bounce-slow {
+    animation-name: bounce-slow;
+    animation-duration: 2s; /* Ajusta la duración de la animación según tus necesidades */
+    animation-iteration-count: infinite;
+  }
+
+ 
